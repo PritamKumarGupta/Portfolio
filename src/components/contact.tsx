@@ -37,10 +37,7 @@ export default function Contact() {
 
     // Simulate form submission
     setTimeout(() => {
-      // toast({
-      //   title: "Message sent!",
-      //   description: "Thank you for your message. I'll get back to you soon.",
-      // })
+      toast("Message sent!")
       setFormData({
         name: "",
         email: "",
